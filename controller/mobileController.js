@@ -61,6 +61,7 @@ exports.saveComplaint = async (req, res) => {
     images: req.body.images,
     userId: userIdd,
     username: req.body.username,
+    area: req.body.area,
   });
 
   complain
